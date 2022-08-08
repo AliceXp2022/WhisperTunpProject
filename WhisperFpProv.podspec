@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WhisperFpProv'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of WhisperFpProv.'
+  s.version          = '1.0.5'
+  s.summary          = 'WhisperFpProv simple common tool.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,15 +28,14 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/WhisperFp/WhisperFpProv.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'WhisperFpProv/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'WhisperFpProv' => ['WhisperFpProv/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'WhisperFpProv' => ['WhisperFpProv/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.frameworks = 'UIKit', 'Foundation','CommonCrypto'
 end

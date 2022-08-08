@@ -59,12 +59,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6E3951454181792857F47FC9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6E3951454181792857F47FC9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DB152A9A3A68925FF35F0B8 /* Pods-WhisperFpProv_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhisperFpProv_Example.release.xcconfig"; path = "Target Support Files/Pods-WhisperFpProv_Example/Pods-WhisperFpProv_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		87CD1D29256D4E7B68C47A7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B39D7BADF374591900AC3FA3 /* WhisperFpProv.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WhisperFpProv.podspec; path = ../WhisperFpProv.podspec; sourceTree = "<group>"; };
+		87CD1D29256D4E7B68C47A7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B39D7BADF374591900AC3FA3 /* WhisperFpProv.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WhisperFpProv.podspec; path = ../WhisperFpProv.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DCFED4274CD109C873789784 /* Pods-WhisperFpProv_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhisperFpProv_Tests.release.xcconfig"; path = "Target Support Files/Pods-WhisperFpProv_Tests/Pods-WhisperFpProv_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F61367AE64CED59AD85995B3 /* Pods-WhisperFpProv_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhisperFpProv_Example.debug.xcconfig"; path = "Target Support Files/Pods-WhisperFpProv_Example/Pods-WhisperFpProv_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				1DEECBCB69B5C8CA6759FBB5 /* Pods-WhisperFpProv_Tests.debug.xcconfig */,
 				DCFED4274CD109C873789784 /* Pods-WhisperFpProv_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -497,6 +497,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WhisperFpProv/WhisperFpProv-Prefix.pch";
 				INFOPLIST_FILE = "WhisperFpProv/WhisperFpProv-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,6 +514,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WhisperFpProv/WhisperFpProv-Prefix.pch";
 				INFOPLIST_FILE = "WhisperFpProv/WhisperFpProv-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

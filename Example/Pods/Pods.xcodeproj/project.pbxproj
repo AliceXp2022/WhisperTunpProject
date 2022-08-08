@@ -8,10 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		1E69AEF8951F3DA58F615B18A0699CD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		60235DD228A128370065B5DB /* WhisperTunp.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60235DD128A128370065B5DB /* WhisperTunp.xcassets */; };
+		60235DE928A1289D0065B5DB /* NSURLSession+HttpProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 60235DD428A1289B0065B5DB /* NSURLSession+HttpProxy.h */; };
+		60235DEB28A1289D0065B5DB /* UIView+WhisperFpProvEmpty.h in Headers */ = {isa = PBXBuildFile; fileRef = 60235DD628A1289C0065B5DB /* UIView+WhisperFpProvEmpty.h */; };
+		60235DEC28A1289D0065B5DB /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 60235DD728A1289C0065B5DB /* GTMDefines.h */; };
+		60235DED28A1289D0065B5DB /* WhisperFpProvURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 60235DD828A1289C0065B5DB /* WhisperFpProvURLProtocol.h */; };
+		60235DEF28A1289D0065B5DB /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 60235DDA28A1289C0065B5DB /* GTMBase64.h */; };
+		60235DF028A1289D0065B5DB /* NSURLSession+HttpProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60235DDB28A1289C0065B5DB /* NSURLSession+HttpProxy.m */; };
+		60235DF428A1289D0065B5DB /* UIColor+UIColor_WhisperFpProv.h in Headers */ = {isa = PBXBuildFile; fileRef = 60235DDF28A1289C0065B5DB /* UIColor+UIColor_WhisperFpProv.h */; };
+		60235DF528A1289D0065B5DB /* UIColor+UIColor_WhisperFpProv.m in Sources */ = {isa = PBXBuildFile; fileRef = 60235DE028A1289C0065B5DB /* UIColor+UIColor_WhisperFpProv.m */; };
+		60235DF628A1289D0065B5DB /* UIView_WhisperFpProvextra.h in Headers */ = {isa = PBXBuildFile; fileRef = 60235DE128A1289D0065B5DB /* UIView_WhisperFpProvextra.h */; };
+		60235DF828A1289D0065B5DB /* UIView_WhisperFpProvextra.m in Sources */ = {isa = PBXBuildFile; fileRef = 60235DE328A1289D0065B5DB /* UIView_WhisperFpProvextra.m */; };
+		60235DF928A1289D0065B5DB /* WhisperFpProvURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 60235DE428A1289D0065B5DB /* WhisperFpProvURLProtocol.m */; };
+		60235DFA28A1289D0065B5DB /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 60235DE528A1289D0065B5DB /* GTMBase64.m */; };
+		60235DFC28A1289D0065B5DB /* UIView+WhisperFpProvEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 60235DE728A1289D0065B5DB /* UIView+WhisperFpProvEmpty.m */; };
+		60235E0028A129D30065B5DB /* WhisperFpProvCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 60235DFE28A129D30065B5DB /* WhisperFpProvCommon.h */; };
+		60235E0128A129D30065B5DB /* WhisperFpProvCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 60235DFF28A129D30065B5DB /* WhisperFpProvCommon.m */; };
 		9319D5A645EDADA91938485EEC02D4FC /* Pods-WhisperFpProv_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA57DF01D6283D913E8A2F92756C6487 /* Pods-WhisperFpProv_Tests-dummy.m */; };
 		93392D202E896AB98B8340CC1E0408B6 /* WhisperFpProv-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CC85C88AD273FCD7654EA77E81B0AF /* WhisperFpProv-dummy.m */; };
 		9E6CC1294C39514511A1870196B3803F /* WhisperFpProv-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59454FB7E5BECD077705ECEE083F3EC3 /* WhisperFpProv-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2B8B0A3A60B3027AFD3054E78303EEC /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9AB44FC49B0031D220000B51EF5C22 /* ReplaceMe.m */; };
 		C71580C25C5F398F001083C748D1005E /* Pods-WhisperFpProv_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 436D403389252264F6C63AC70BFD3D88 /* Pods-WhisperFpProv_Example-dummy.m */; };
 		D928326479B5E185D2F9AE22A3817F80 /* Pods-WhisperFpProv_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2062C89C1A214E308AA258B98EC0C412 /* Pods-WhisperFpProv_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4C7C41A14BF806D05D7D35659FA43FB /* Pods-WhisperFpProv_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C3C06B521BB9DD7AEBC3EFCBBB3ED8 /* Pods-WhisperFpProv_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,10 +52,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0362A54870996B16D86AC42111625289 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0362A54870996B16D86AC42111625289 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		072D1127FBB53A2AD88E2C469D15E2C5 /* Pods-WhisperFpProv_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhisperFpProv_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0BBEA67A0DE5FC264887158BCC6CABFA /* Pods-WhisperFpProv_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhisperFpProv_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		179660C0CEEF8329B244D28AA27579E0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		179660C0CEEF8329B244D28AA27579E0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2062C89C1A214E308AA258B98EC0C412 /* Pods-WhisperFpProv_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WhisperFpProv_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2757FDCCA96FBA2FC9691A0F6BDFB32C /* Pods-WhisperFpProv_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhisperFpProv_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		40C3C06B521BB9DD7AEBC3EFCBBB3ED8 /* Pods-WhisperFpProv_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WhisperFpProv_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -50,26 +65,41 @@
 		59454FB7E5BECD077705ECEE083F3EC3 /* WhisperFpProv-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WhisperFpProv-umbrella.h"; sourceTree = "<group>"; };
 		5A0095E647288DB5825D146D109E5249 /* WhisperFpProv-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WhisperFpProv-prefix.pch"; sourceTree = "<group>"; };
 		5C58B9A7A16035EC44CC150EBA0621B9 /* Pods-WhisperFpProv_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhisperFpProv_Example-Info.plist"; sourceTree = "<group>"; };
-		699BC61B319B1FA94AB6F6B248540345 /* Pods_WhisperFpProv_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WhisperFpProv_Tests.framework; path = "Pods-WhisperFpProv_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60235DD128A128370065B5DB /* WhisperTunp.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = WhisperTunp.xcassets; sourceTree = "<group>"; };
+		60235DD428A1289B0065B5DB /* NSURLSession+HttpProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSession+HttpProxy.h"; sourceTree = "<group>"; };
+		60235DD628A1289C0065B5DB /* UIView+WhisperFpProvEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WhisperFpProvEmpty.h"; sourceTree = "<group>"; };
+		60235DD728A1289C0065B5DB /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		60235DD828A1289C0065B5DB /* WhisperFpProvURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhisperFpProvURLProtocol.h; sourceTree = "<group>"; };
+		60235DDA28A1289C0065B5DB /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		60235DDB28A1289C0065B5DB /* NSURLSession+HttpProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSession+HttpProxy.m"; sourceTree = "<group>"; };
+		60235DDF28A1289C0065B5DB /* UIColor+UIColor_WhisperFpProv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+UIColor_WhisperFpProv.h"; sourceTree = "<group>"; };
+		60235DE028A1289C0065B5DB /* UIColor+UIColor_WhisperFpProv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+UIColor_WhisperFpProv.m"; sourceTree = "<group>"; };
+		60235DE128A1289D0065B5DB /* UIView_WhisperFpProvextra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView_WhisperFpProvextra.h; sourceTree = "<group>"; };
+		60235DE328A1289D0065B5DB /* UIView_WhisperFpProvextra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_WhisperFpProvextra.m; sourceTree = "<group>"; };
+		60235DE428A1289D0065B5DB /* WhisperFpProvURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhisperFpProvURLProtocol.m; sourceTree = "<group>"; };
+		60235DE528A1289D0065B5DB /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		60235DE728A1289D0065B5DB /* UIView+WhisperFpProvEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WhisperFpProvEmpty.m"; sourceTree = "<group>"; };
+		60235DFE28A129D30065B5DB /* WhisperFpProvCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhisperFpProvCommon.h; sourceTree = "<group>"; };
+		60235DFF28A129D30065B5DB /* WhisperFpProvCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhisperFpProvCommon.m; sourceTree = "<group>"; };
+		699BC61B319B1FA94AB6F6B248540345 /* Pods_WhisperFpProv_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhisperFpProv_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7C9AB44FC49B0031D220000B51EF5C22 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = WhisperFpProv/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		96F4C531A874D69FB73BAEC5C70B1A56 /* Pods-WhisperFpProv_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhisperFpProv_Tests-Info.plist"; sourceTree = "<group>"; };
 		9758E0441A3E5E728E7D99B75B605B3A /* WhisperFpProv.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WhisperFpProv.release.xcconfig; sourceTree = "<group>"; };
 		979F8EEF40F1028E5C8106C422199126 /* Pods-WhisperFpProv_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhisperFpProv_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0CC85C88AD273FCD7654EA77E81B0AF /* WhisperFpProv-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WhisperFpProv-dummy.m"; sourceTree = "<group>"; };
 		AA12EB0B2B22B433B924F69C5783CC27 /* Pods-WhisperFpProv_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WhisperFpProv_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BD6A761E7E020A5DEDD6EFEFC27D41EF /* Pods-WhisperFpProv_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WhisperFpProv_Example-frameworks.sh"; sourceTree = "<group>"; };
 		BE0DE881B78AB23C12FFAC2FC024C71D /* WhisperFpProv.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WhisperFpProv.modulemap; sourceTree = "<group>"; };
 		C0047538000483A19855FC2C4DAB72F2 /* Pods-WhisperFpProv_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WhisperFpProv_Tests.modulemap"; sourceTree = "<group>"; };
-		C120B05784BF237930AEDA8C09DC4836 /* WhisperFpProv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WhisperFpProv.framework; path = WhisperFpProv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C120B05784BF237930AEDA8C09DC4836 /* WhisperFpProv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WhisperFpProv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47DE20B211EF5FA72FC88A0E91A0409 /* Pods-WhisperFpProv_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WhisperFpProv_Example.modulemap"; sourceTree = "<group>"; };
 		CA0F0C57510C779F88785CD00990549E /* Pods-WhisperFpProv_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WhisperFpProv_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CA57DF01D6283D913E8A2F92756C6487 /* Pods-WhisperFpProv_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WhisperFpProv_Tests-dummy.m"; sourceTree = "<group>"; };
 		DE7A5DD4252EF83AA48121E9A754F3BB /* Pods-WhisperFpProv_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhisperFpProv_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E661A10E4C238657CE1EEAB5FDC70541 /* Pods_WhisperFpProv_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WhisperFpProv_Example.framework; path = "Pods-WhisperFpProv_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E661A10E4C238657CE1EEAB5FDC70541 /* Pods_WhisperFpProv_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhisperFpProv_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC664919CBE89B4D3AD1E2988533FB1C /* Pods-WhisperFpProv_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhisperFpProv_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FD9EC8F17884FCE1AD0E9C2A5DA98D81 /* WhisperFpProv.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WhisperFpProv.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FD9EC8F17884FCE1AD0E9C2A5DA98D81 /* WhisperFpProv.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WhisperFpProv.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +162,44 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		60235DCF28A1279B0065B5DB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				60235DD128A128370065B5DB /* WhisperTunp.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		60235DD028A1279B0065B5DB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				60235DD328A128520065B5DB /* Common */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		60235DD328A128520065B5DB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				60235DDA28A1289C0065B5DB /* GTMBase64.h */,
+				60235DE528A1289D0065B5DB /* GTMBase64.m */,
+				60235DD728A1289C0065B5DB /* GTMDefines.h */,
+				60235DD428A1289B0065B5DB /* NSURLSession+HttpProxy.h */,
+				60235DDB28A1289C0065B5DB /* NSURLSession+HttpProxy.m */,
+				60235DD628A1289C0065B5DB /* UIView+WhisperFpProvEmpty.h */,
+				60235DE728A1289D0065B5DB /* UIView+WhisperFpProvEmpty.m */,
+				60235DDF28A1289C0065B5DB /* UIColor+UIColor_WhisperFpProv.h */,
+				60235DE028A1289C0065B5DB /* UIColor+UIColor_WhisperFpProv.m */,
+				60235DE128A1289D0065B5DB /* UIView_WhisperFpProvextra.h */,
+				60235DE328A1289D0065B5DB /* UIView_WhisperFpProvextra.m */,
+				60235DD828A1289C0065B5DB /* WhisperFpProvURLProtocol.h */,
+				60235DE428A1289D0065B5DB /* WhisperFpProvURLProtocol.m */,
+				60235DFE28A129D30065B5DB /* WhisperFpProvCommon.h */,
+				60235DFF28A129D30065B5DB /* WhisperFpProvCommon.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		765FE5D9D3856287AB2BF65D7C5D6977 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,7 +213,8 @@
 		88B1FB8DAB03B4C3DC55A91DEA34A32D /* WhisperFpProv */ = {
 			isa = PBXGroup;
 			children = (
-				7C9AB44FC49B0031D220000B51EF5C22 /* ReplaceMe.m */,
+				60235DCF28A1279B0065B5DB /* Assets */,
+				60235DD028A1279B0065B5DB /* Classes */,
 				D83DA9F6F4C4B71FDD71F38CCD595A1E /* Pod */,
 				1C929A901A8FA2DBF174D8BDF3A67E69 /* Support Files */,
 			);
@@ -247,6 +316,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E6CC1294C39514511A1870196B3803F /* WhisperFpProv-umbrella.h in Headers */,
+				60235DF628A1289D0065B5DB /* UIView_WhisperFpProvextra.h in Headers */,
+				60235DEC28A1289D0065B5DB /* GTMDefines.h in Headers */,
+				60235DEB28A1289D0065B5DB /* UIView+WhisperFpProvEmpty.h in Headers */,
+				60235DF428A1289D0065B5DB /* UIColor+UIColor_WhisperFpProv.h in Headers */,
+				60235DED28A1289D0065B5DB /* WhisperFpProvURLProtocol.h in Headers */,
+				60235E0028A129D30065B5DB /* WhisperFpProvCommon.h in Headers */,
+				60235DEF28A1289D0065B5DB /* GTMBase64.h in Headers */,
+				60235DE928A1289D0065B5DB /* NSURLSession+HttpProxy.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +434,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60235DD228A128370065B5DB /* WhisperTunp.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,8 +453,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2B8B0A3A60B3027AFD3054E78303EEC /* ReplaceMe.m in Sources */,
+				60235DF528A1289D0065B5DB /* UIColor+UIColor_WhisperFpProv.m in Sources */,
+				60235DF028A1289D0065B5DB /* NSURLSession+HttpProxy.m in Sources */,
 				93392D202E896AB98B8340CC1E0408B6 /* WhisperFpProv-dummy.m in Sources */,
+				60235DF828A1289D0065B5DB /* UIView_WhisperFpProvextra.m in Sources */,
+				60235E0128A129D30065B5DB /* WhisperFpProvCommon.m in Sources */,
+				60235DFA28A1289D0065B5DB /* GTMBase64.m in Sources */,
+				60235DFC28A1289D0065B5DB /* UIView+WhisperFpProvEmpty.m in Sources */,
+				60235DF928A1289D0065B5DB /* WhisperFpProvURLProtocol.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,8 +643,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
