@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'WhisperFpProv_Example' do
+  pod 'WhisperFpProv', :path => '../'
+
+  target 'WhisperFpProv_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
