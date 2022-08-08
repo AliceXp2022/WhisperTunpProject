@@ -1,0 +1,16 @@
+PODS:
+  - WhisperFpProv (0.1.0)
+
+DEPENDENCIES:
+  - WhisperFpProv (from `../`)
+
+EXTERNAL SOURCES:
+  WhisperFpProv:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WhisperFpProv: 0d56e04013a4f8ca0d42b37f25203f9ae3fd0c8a
+
+PODFILE CHECKSUM: 8bfbbc32c617dcd559f3e3b84f7da8f47a4182a4
+
+COCOAPODS: 1.10.1

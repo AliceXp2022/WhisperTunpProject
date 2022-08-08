@@ -1,0 +1,22 @@
+{
+  "name": "WhisperFpProv",
+  "version": "0.1.0",
+  "summary": "A short description of WhisperFpProv.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/WhisperFp/WhisperFpProv",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "WhisperFp": "lianxinxyp@163.com"
+  },
+  "source": {
+    "git": "https://github.com/WhisperFp/WhisperFpProv.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "WhisperFpProv/Classes/**/*"
+}

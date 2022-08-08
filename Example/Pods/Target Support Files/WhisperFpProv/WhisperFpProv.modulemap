@@ -1,0 +1,6 @@
+framework module WhisperFpProv {
+  umbrella header "WhisperFpProv-umbrella.h"
+
+  export *
+  module * { export * }
+}
