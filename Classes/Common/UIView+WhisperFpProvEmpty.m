@@ -1,5 +1,5 @@
 #import "UIView+WhisperFpProvEmpty.h"
-
+#import <objc/runtime.h>
 //屏幕高
 #define kSCREENH [UIScreen mainScreen].bounds.size.height
 //屏幕宽
@@ -76,7 +76,7 @@
     if (self) {
         self.backgroundColor = [UIColor whiteColor];
         
-        UIImageView* errorImageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"wuwifi"]];
+        UIImageView* errorImageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"wifi"]];
         _errorImageView = errorImageView;
         _errorImageView.frame=CGRectMake(kSCREENW/2-15, kSCREENH/2-30, 30, 30);
         [self addSubview:_errorImageView];
