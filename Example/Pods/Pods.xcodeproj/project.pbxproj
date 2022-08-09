@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		1E69AEF8951F3DA58F615B18A0699CD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		60235DD228A128370065B5DB /* WhisperTunp.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60235DD128A128370065B5DB /* WhisperTunp.xcassets */; };
-		60235DE928A1289D0065B5DB /* NSURLSession+HttpProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 60235DD428A1289B0065B5DB /* NSURLSession+HttpProxy.h */; };
-		60235DEB28A1289D0065B5DB /* UIView+WhisperFpProvEmpty.h in Headers */ = {isa = PBXBuildFile; fileRef = 60235DD628A1289C0065B5DB /* UIView+WhisperFpProvEmpty.h */; };
-		60235DEC28A1289D0065B5DB /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 60235DD728A1289C0065B5DB /* GTMDefines.h */; };
-		60235DED28A1289D0065B5DB /* WhisperFpProvURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 60235DD828A1289C0065B5DB /* WhisperFpProvURLProtocol.h */; };
-		60235DEF28A1289D0065B5DB /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 60235DDA28A1289C0065B5DB /* GTMBase64.h */; };
-		60235DF028A1289D0065B5DB /* NSURLSession+HttpProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60235DDB28A1289C0065B5DB /* NSURLSession+HttpProxy.m */; };
-		60235DF428A1289D0065B5DB /* UIColor+UIColor_WhisperFpProv.h in Headers */ = {isa = PBXBuildFile; fileRef = 60235DDF28A1289C0065B5DB /* UIColor+UIColor_WhisperFpProv.h */; };
-		60235DF528A1289D0065B5DB /* UIColor+UIColor_WhisperFpProv.m in Sources */ = {isa = PBXBuildFile; fileRef = 60235DE028A1289C0065B5DB /* UIColor+UIColor_WhisperFpProv.m */; };
-		60235DF628A1289D0065B5DB /* UIView_WhisperFpProvextra.h in Headers */ = {isa = PBXBuildFile; fileRef = 60235DE128A1289D0065B5DB /* UIView_WhisperFpProvextra.h */; };
-		60235DF828A1289D0065B5DB /* UIView_WhisperFpProvextra.m in Sources */ = {isa = PBXBuildFile; fileRef = 60235DE328A1289D0065B5DB /* UIView_WhisperFpProvextra.m */; };
-		60235DF928A1289D0065B5DB /* WhisperFpProvURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 60235DE428A1289D0065B5DB /* WhisperFpProvURLProtocol.m */; };
-		60235DFA28A1289D0065B5DB /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 60235DE528A1289D0065B5DB /* GTMBase64.m */; };
-		60235DFC28A1289D0065B5DB /* UIView+WhisperFpProvEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 60235DE728A1289D0065B5DB /* UIView+WhisperFpProvEmpty.m */; };
-		60235E0028A129D30065B5DB /* WhisperFpProvCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 60235DFE28A129D30065B5DB /* WhisperFpProvCommon.h */; };
-		60235E0128A129D30065B5DB /* WhisperFpProvCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 60235DFF28A129D30065B5DB /* WhisperFpProvCommon.m */; };
+		6084079528A1F3D8008E69D3 /* UIColor+UIColor_WhisperFpProv.m in Sources */ = {isa = PBXBuildFile; fileRef = 6084078628A1F3D8008E69D3 /* UIColor+UIColor_WhisperFpProv.m */; };
+		6084079628A1F3D8008E69D3 /* WhisperFpProvURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 6084078728A1F3D8008E69D3 /* WhisperFpProvURLProtocol.h */; };
+		6084079728A1F3D8008E69D3 /* WhisperFpProvCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6084078828A1F3D8008E69D3 /* WhisperFpProvCommon.m */; };
+		6084079828A1F3D8008E69D3 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 6084078928A1F3D8008E69D3 /* GTMBase64.h */; };
+		6084079928A1F3D8008E69D3 /* UIView_WhisperFpProvextra.m in Sources */ = {isa = PBXBuildFile; fileRef = 6084078A28A1F3D8008E69D3 /* UIView_WhisperFpProvextra.m */; };
+		6084079A28A1F3D8008E69D3 /* UIView+WhisperFpProvEmpty.h in Headers */ = {isa = PBXBuildFile; fileRef = 6084078B28A1F3D8008E69D3 /* UIView+WhisperFpProvEmpty.h */; };
+		6084079B28A1F3D8008E69D3 /* NSURLSession+HttpProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6084078C28A1F3D8008E69D3 /* NSURLSession+HttpProxy.h */; };
+		6084079C28A1F3D8008E69D3 /* UIColor+UIColor_WhisperFpProv.h in Headers */ = {isa = PBXBuildFile; fileRef = 6084078D28A1F3D8008E69D3 /* UIColor+UIColor_WhisperFpProv.h */; };
+		6084079D28A1F3D8008E69D3 /* WhisperFpProvURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 6084078E28A1F3D8008E69D3 /* WhisperFpProvURLProtocol.m */; };
+		6084079E28A1F3D8008E69D3 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 6084078F28A1F3D8008E69D3 /* GTMDefines.h */; };
+		6084079F28A1F3D8008E69D3 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 6084079028A1F3D8008E69D3 /* GTMBase64.m */; };
+		608407A028A1F3D8008E69D3 /* WhisperFpProvCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 6084079128A1F3D8008E69D3 /* WhisperFpProvCommon.h */; };
+		608407A128A1F3D8008E69D3 /* NSURLSession+HttpProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6084079228A1F3D8008E69D3 /* NSURLSession+HttpProxy.m */; };
+		608407A228A1F3D8008E69D3 /* UIView+WhisperFpProvEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 6084079328A1F3D8008E69D3 /* UIView+WhisperFpProvEmpty.m */; };
+		608407A328A1F3D8008E69D3 /* UIView_WhisperFpProvextra.h in Headers */ = {isa = PBXBuildFile; fileRef = 6084079428A1F3D8008E69D3 /* UIView_WhisperFpProvextra.h */; };
+		608407A928A1F8E0008E69D3 /* wuwifi.png in Resources */ = {isa = PBXBuildFile; fileRef = 608407A828A1F8E0008E69D3 /* wuwifi.png */; };
 		9319D5A645EDADA91938485EEC02D4FC /* Pods-WhisperFpProv_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA57DF01D6283D913E8A2F92756C6487 /* Pods-WhisperFpProv_Tests-dummy.m */; };
 		93392D202E896AB98B8340CC1E0408B6 /* WhisperFpProv-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CC85C88AD273FCD7654EA77E81B0AF /* WhisperFpProv-dummy.m */; };
 		9E6CC1294C39514511A1870196B3803F /* WhisperFpProv-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59454FB7E5BECD077705ECEE083F3EC3 /* WhisperFpProv-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -65,22 +65,22 @@
 		59454FB7E5BECD077705ECEE083F3EC3 /* WhisperFpProv-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WhisperFpProv-umbrella.h"; sourceTree = "<group>"; };
 		5A0095E647288DB5825D146D109E5249 /* WhisperFpProv-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WhisperFpProv-prefix.pch"; sourceTree = "<group>"; };
 		5C58B9A7A16035EC44CC150EBA0621B9 /* Pods-WhisperFpProv_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhisperFpProv_Example-Info.plist"; sourceTree = "<group>"; };
-		60235DD128A128370065B5DB /* WhisperTunp.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = WhisperTunp.xcassets; sourceTree = "<group>"; };
-		60235DD428A1289B0065B5DB /* NSURLSession+HttpProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSession+HttpProxy.h"; sourceTree = "<group>"; };
-		60235DD628A1289C0065B5DB /* UIView+WhisperFpProvEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WhisperFpProvEmpty.h"; sourceTree = "<group>"; };
-		60235DD728A1289C0065B5DB /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		60235DD828A1289C0065B5DB /* WhisperFpProvURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhisperFpProvURLProtocol.h; sourceTree = "<group>"; };
-		60235DDA28A1289C0065B5DB /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
-		60235DDB28A1289C0065B5DB /* NSURLSession+HttpProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSession+HttpProxy.m"; sourceTree = "<group>"; };
-		60235DDF28A1289C0065B5DB /* UIColor+UIColor_WhisperFpProv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+UIColor_WhisperFpProv.h"; sourceTree = "<group>"; };
-		60235DE028A1289C0065B5DB /* UIColor+UIColor_WhisperFpProv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+UIColor_WhisperFpProv.m"; sourceTree = "<group>"; };
-		60235DE128A1289D0065B5DB /* UIView_WhisperFpProvextra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView_WhisperFpProvextra.h; sourceTree = "<group>"; };
-		60235DE328A1289D0065B5DB /* UIView_WhisperFpProvextra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_WhisperFpProvextra.m; sourceTree = "<group>"; };
-		60235DE428A1289D0065B5DB /* WhisperFpProvURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhisperFpProvURLProtocol.m; sourceTree = "<group>"; };
-		60235DE528A1289D0065B5DB /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
-		60235DE728A1289D0065B5DB /* UIView+WhisperFpProvEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WhisperFpProvEmpty.m"; sourceTree = "<group>"; };
-		60235DFE28A129D30065B5DB /* WhisperFpProvCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhisperFpProvCommon.h; sourceTree = "<group>"; };
-		60235DFF28A129D30065B5DB /* WhisperFpProvCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhisperFpProvCommon.m; sourceTree = "<group>"; };
+		6084078628A1F3D8008E69D3 /* UIColor+UIColor_WhisperFpProv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+UIColor_WhisperFpProv.m"; sourceTree = "<group>"; };
+		6084078728A1F3D8008E69D3 /* WhisperFpProvURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhisperFpProvURLProtocol.h; sourceTree = "<group>"; };
+		6084078828A1F3D8008E69D3 /* WhisperFpProvCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhisperFpProvCommon.m; sourceTree = "<group>"; };
+		6084078928A1F3D8008E69D3 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		6084078A28A1F3D8008E69D3 /* UIView_WhisperFpProvextra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_WhisperFpProvextra.m; sourceTree = "<group>"; };
+		6084078B28A1F3D8008E69D3 /* UIView+WhisperFpProvEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WhisperFpProvEmpty.h"; sourceTree = "<group>"; };
+		6084078C28A1F3D8008E69D3 /* NSURLSession+HttpProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSession+HttpProxy.h"; sourceTree = "<group>"; };
+		6084078D28A1F3D8008E69D3 /* UIColor+UIColor_WhisperFpProv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+UIColor_WhisperFpProv.h"; sourceTree = "<group>"; };
+		6084078E28A1F3D8008E69D3 /* WhisperFpProvURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhisperFpProvURLProtocol.m; sourceTree = "<group>"; };
+		6084078F28A1F3D8008E69D3 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		6084079028A1F3D8008E69D3 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		6084079128A1F3D8008E69D3 /* WhisperFpProvCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhisperFpProvCommon.h; sourceTree = "<group>"; };
+		6084079228A1F3D8008E69D3 /* NSURLSession+HttpProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSession+HttpProxy.m"; sourceTree = "<group>"; };
+		6084079328A1F3D8008E69D3 /* UIView+WhisperFpProvEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WhisperFpProvEmpty.m"; sourceTree = "<group>"; };
+		6084079428A1F3D8008E69D3 /* UIView_WhisperFpProvextra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView_WhisperFpProvextra.h; sourceTree = "<group>"; };
+		608407A828A1F8E0008E69D3 /* wuwifi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wuwifi.png; sourceTree = "<group>"; };
 		699BC61B319B1FA94AB6F6B248540345 /* Pods_WhisperFpProv_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhisperFpProv_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		96F4C531A874D69FB73BAEC5C70B1A56 /* Pods-WhisperFpProv_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhisperFpProv_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -162,40 +162,33 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		60235DCF28A1279B0065B5DB /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				60235DD128A128370065B5DB /* WhisperTunp.xcassets */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
 		60235DD028A1279B0065B5DB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				60235DD328A128520065B5DB /* Common */,
+				6084078528A1F3D8008E69D3 /* Common */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		60235DD328A128520065B5DB /* Common */ = {
+		6084078528A1F3D8008E69D3 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				60235DDA28A1289C0065B5DB /* GTMBase64.h */,
-				60235DE528A1289D0065B5DB /* GTMBase64.m */,
-				60235DD728A1289C0065B5DB /* GTMDefines.h */,
-				60235DD428A1289B0065B5DB /* NSURLSession+HttpProxy.h */,
-				60235DDB28A1289C0065B5DB /* NSURLSession+HttpProxy.m */,
-				60235DD628A1289C0065B5DB /* UIView+WhisperFpProvEmpty.h */,
-				60235DE728A1289D0065B5DB /* UIView+WhisperFpProvEmpty.m */,
-				60235DDF28A1289C0065B5DB /* UIColor+UIColor_WhisperFpProv.h */,
-				60235DE028A1289C0065B5DB /* UIColor+UIColor_WhisperFpProv.m */,
-				60235DE128A1289D0065B5DB /* UIView_WhisperFpProvextra.h */,
-				60235DE328A1289D0065B5DB /* UIView_WhisperFpProvextra.m */,
-				60235DD828A1289C0065B5DB /* WhisperFpProvURLProtocol.h */,
-				60235DE428A1289D0065B5DB /* WhisperFpProvURLProtocol.m */,
-				60235DFE28A129D30065B5DB /* WhisperFpProvCommon.h */,
-				60235DFF28A129D30065B5DB /* WhisperFpProvCommon.m */,
+				608407A828A1F8E0008E69D3 /* wuwifi.png */,
+				6084078628A1F3D8008E69D3 /* UIColor+UIColor_WhisperFpProv.m */,
+				6084078728A1F3D8008E69D3 /* WhisperFpProvURLProtocol.h */,
+				6084078828A1F3D8008E69D3 /* WhisperFpProvCommon.m */,
+				6084078928A1F3D8008E69D3 /* GTMBase64.h */,
+				6084078A28A1F3D8008E69D3 /* UIView_WhisperFpProvextra.m */,
+				6084078B28A1F3D8008E69D3 /* UIView+WhisperFpProvEmpty.h */,
+				6084078C28A1F3D8008E69D3 /* NSURLSession+HttpProxy.h */,
+				6084078D28A1F3D8008E69D3 /* UIColor+UIColor_WhisperFpProv.h */,
+				6084078E28A1F3D8008E69D3 /* WhisperFpProvURLProtocol.m */,
+				6084078F28A1F3D8008E69D3 /* GTMDefines.h */,
+				6084079028A1F3D8008E69D3 /* GTMBase64.m */,
+				6084079128A1F3D8008E69D3 /* WhisperFpProvCommon.h */,
+				6084079228A1F3D8008E69D3 /* NSURLSession+HttpProxy.m */,
+				6084079328A1F3D8008E69D3 /* UIView+WhisperFpProvEmpty.m */,
+				6084079428A1F3D8008E69D3 /* UIView_WhisperFpProvextra.h */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -213,7 +206,6 @@
 		88B1FB8DAB03B4C3DC55A91DEA34A32D /* WhisperFpProv */ = {
 			isa = PBXGroup;
 			children = (
-				60235DCF28A1279B0065B5DB /* Assets */,
 				60235DD028A1279B0065B5DB /* Classes */,
 				D83DA9F6F4C4B71FDD71F38CCD595A1E /* Pod */,
 				1C929A901A8FA2DBF174D8BDF3A67E69 /* Support Files */,
@@ -315,15 +307,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6084079628A1F3D8008E69D3 /* WhisperFpProvURLProtocol.h in Headers */,
+				6084079828A1F3D8008E69D3 /* GTMBase64.h in Headers */,
 				9E6CC1294C39514511A1870196B3803F /* WhisperFpProv-umbrella.h in Headers */,
-				60235DF628A1289D0065B5DB /* UIView_WhisperFpProvextra.h in Headers */,
-				60235DEC28A1289D0065B5DB /* GTMDefines.h in Headers */,
-				60235DEB28A1289D0065B5DB /* UIView+WhisperFpProvEmpty.h in Headers */,
-				60235DF428A1289D0065B5DB /* UIColor+UIColor_WhisperFpProv.h in Headers */,
-				60235DED28A1289D0065B5DB /* WhisperFpProvURLProtocol.h in Headers */,
-				60235E0028A129D30065B5DB /* WhisperFpProvCommon.h in Headers */,
-				60235DEF28A1289D0065B5DB /* GTMBase64.h in Headers */,
-				60235DE928A1289D0065B5DB /* NSURLSession+HttpProxy.h in Headers */,
+				608407A028A1F3D8008E69D3 /* WhisperFpProvCommon.h in Headers */,
+				6084079E28A1F3D8008E69D3 /* GTMDefines.h in Headers */,
+				6084079B28A1F3D8008E69D3 /* NSURLSession+HttpProxy.h in Headers */,
+				6084079C28A1F3D8008E69D3 /* UIColor+UIColor_WhisperFpProv.h in Headers */,
+				608407A328A1F3D8008E69D3 /* UIView_WhisperFpProvextra.h in Headers */,
+				6084079A28A1F3D8008E69D3 /* UIView+WhisperFpProvEmpty.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +426,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60235DD228A128370065B5DB /* WhisperTunp.xcassets in Resources */,
+				608407A928A1F8E0008E69D3 /* wuwifi.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,14 +445,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60235DF528A1289D0065B5DB /* UIColor+UIColor_WhisperFpProv.m in Sources */,
-				60235DF028A1289D0065B5DB /* NSURLSession+HttpProxy.m in Sources */,
+				608407A228A1F3D8008E69D3 /* UIView+WhisperFpProvEmpty.m in Sources */,
 				93392D202E896AB98B8340CC1E0408B6 /* WhisperFpProv-dummy.m in Sources */,
-				60235DF828A1289D0065B5DB /* UIView_WhisperFpProvextra.m in Sources */,
-				60235E0128A129D30065B5DB /* WhisperFpProvCommon.m in Sources */,
-				60235DFA28A1289D0065B5DB /* GTMBase64.m in Sources */,
-				60235DFC28A1289D0065B5DB /* UIView+WhisperFpProvEmpty.m in Sources */,
-				60235DF928A1289D0065B5DB /* WhisperFpProvURLProtocol.m in Sources */,
+				6084079F28A1F3D8008E69D3 /* GTMBase64.m in Sources */,
+				6084079D28A1F3D8008E69D3 /* WhisperFpProvURLProtocol.m in Sources */,
+				6084079928A1F3D8008E69D3 /* UIView_WhisperFpProvextra.m in Sources */,
+				6084079528A1F3D8008E69D3 /* UIColor+UIColor_WhisperFpProv.m in Sources */,
+				608407A128A1F3D8008E69D3 /* NSURLSession+HttpProxy.m in Sources */,
+				6084079728A1F3D8008E69D3 /* WhisperFpProvCommon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -498,6 +498,7 @@
 				GCC_PREFIX_HEADER = "WhisperFpProv/WhisperFpProv-Prefix.pch";
 				INFOPLIST_FILE = "WhisperFpProv/WhisperFpProv-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MARKETING_VERSION = 1.0.5;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -515,6 +516,7 @@
 				GCC_PREFIX_HEADER = "WhisperFpProv/WhisperFpProv-Prefix.pch";
 				INFOPLIST_FILE = "WhisperFpProv/WhisperFpProv-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MARKETING_VERSION = 1.0.5;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
