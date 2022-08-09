@@ -3,8 +3,20 @@
 #import "GTMBase64.h"
 /** AES加密位数 */
 static NSInteger const kEHIAESMode = 16;
-
+static WhisperFpProvCommon *mangerWhisperFpProvCommon = nil;
 @implementation WhisperFpProvCommon
+
++(WhisperFpProvCommon *)sharedInstance{
+    if (!mangerWhisperFpProvCommon) {
+        static dispatch_once_t onceToken;
+        dispatch_once(&onceToken, ^{
+            mangerWhisperFpProvCommon = [[WhisperFpProvCommon alloc]init];
+        });
+    }
+    return mangerWhisperFpProvCommon;
+}
+
+
 - (void)setBorderWithView:(UIView *)view top:(BOOL)top left:(BOOL)left bottom:(BOOL)bottom right:(BOOL)right borderColor:(UIColor *)color borderWidth:(CGFloat)width
 {
     if (top) {

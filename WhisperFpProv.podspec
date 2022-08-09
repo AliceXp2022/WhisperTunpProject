@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WhisperFpProv'
-  s.version          = '1.0.6'
+  s.version          = '2.0.8'
   s.summary          = 'WhisperFpProv simple common tool.'
 
 # This description is used to generate tags and improve search results.
@@ -25,12 +25,13 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'WhisperFp' => 'tourse@163.com' }
-  s.source           = { :git => 'https://github.com/yipingxu/WhisperTunpProject.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/AliceXp2022/WhisperTunpProject.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'WhisperFpProv/Classes/**/*.{h,m}'
+  s.source_files = 'Classes/**/*.{h,m}'
+
   
 #   s.resource_bundles = {
 #     'WhisperFpProv' => ['WhisperFpProv/Assets/*.xcassets']

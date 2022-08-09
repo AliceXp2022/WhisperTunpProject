@@ -165,14 +165,6 @@
 		60235DD028A1279B0065B5DB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				6084078528A1F3D8008E69D3 /* Common */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		6084078528A1F3D8008E69D3 /* Common */ = {
-			isa = PBXGroup;
-			children = (
 				608407A828A1F8E0008E69D3 /* wuwifi.png */,
 				6084078628A1F3D8008E69D3 /* UIColor+UIColor_WhisperFpProv.m */,
 				6084078728A1F3D8008E69D3 /* WhisperFpProvURLProtocol.h */,
@@ -190,7 +182,7 @@
 				6084079328A1F3D8008E69D3 /* UIView+WhisperFpProvEmpty.m */,
 				6084079428A1F3D8008E69D3 /* UIView_WhisperFpProvextra.h */,
 			);
-			path = Common;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		765FE5D9D3856287AB2BF65D7C5D6977 /* Products */ = {
